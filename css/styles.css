@@ -1,0 +1,52 @@
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.is-breakable {
+  word-break: break-all;
+  word-wrap: break-word;  
+}
+
+.picture-text {
+  margin-top: 15px;
+}
+
+/*================== Foot ==================*/
+.footer-space {
+  background-color: #222222 !important;
+  border-color: #222222 !important;
+  color: #9D9D8D !important;
+}
+
+.footer-content {
+  padding: 7px 0 7px 0;
+}
+
+.copyright {
+  padding: 7px 0 7px 0;
+}
+
+/*===== Scroll Up Button =====*/
+#scrollUpBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 50px; /* Place the button at the bottom of the page */
+  right: 15px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #00AFEF; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#scrollUpBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
