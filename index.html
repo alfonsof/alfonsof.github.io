@@ -39,13 +39,13 @@
         <li class="dropdown">
           <a href="#code" class="dropdown-toggle" data-toggle="dropdown">My source code <b class="caret"></b></a>
           <ul class="dropdown-menu">
-            <li><a href="#code">Java code</a></li>
-            <li><a href="#code">Python code</a></li>
-            <li><a href="#code">Terraform code</a></li>
-            <li><a href="#code">AWS code</a></li>
-            <li><a href="#code">Azure code</a></li>
-            <li><a href="#code">Google Cloud code</a></li>
-            <li><a href="#code">Cloud code</a></li>
+              <li><a onclick="activeTab('code-java');" href="#code">Java code</a></li>
+              <li><a onclick="activeTab('code-python');" href="#code">Python code</a></li>
+              <li><a onclick="activeTab('code-terraform');" href="#code">Terraform code</a></li>
+              <li><a onclick="activeTab('code-aws');" href="#code">AWS code</a></li>
+              <li><a onclick="activeTab('code-azure');" href="#code">Azure code</a></li>
+              <li><a onclick="activeTab('code-google-cloud');" href="#code">Google Cloud code</a></li>
+              <li><a onclick="activeTab('code-in-the-cloud');" href="#code">Cloud code</a></li>
           </ul>
         </li>
         <li><a href="#my-webs">My Webs</a></li>
@@ -129,7 +129,7 @@
       <p class="text-justify">Some links to my source code on GitHub:</p>
     </div>
     <div class="col-xs-12">
-      <ul class="nav nav-tabs nav-justified"> 
+      <ul class="nav nav-tabs nav-justified">
         <li class="active"><a data-toggle="tab" href="#code-java">Java code</a></li>
         <li><a data-toggle="tab" href="#code-python">Python code</a></li>
         <li><a data-toggle="tab" href="#code-terraform">Terraform code</a></li>
@@ -138,7 +138,6 @@
         <li><a data-toggle="tab" href="#code-google-cloud">Google Cloud code</a></li>
         <li><a data-toggle="tab" href="#code-in-the-cloud">Cloud code</a></li>
       </ul>
-
       <div class="tab-content">
         <div id="code-java" class="tab-pane fade in active">
           <div class="panel panel-default">
@@ -307,4 +306,3 @@
   <script src="js/functions.js?v=1.0"></script>
 </body>
 </html>
-    
