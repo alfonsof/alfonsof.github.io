@@ -15,7 +15,8 @@ function topFunction() {
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 } 
 
-// active a tab in a Bootstrap JS Tab
-function activeTab(tabID){
-    $('.nav-tabs a[href="#' + tabID + '"]').tab('show');
-};
+// active a tab in a Bootstrap JS nav-tabs
+function activeTab(tabPane) {
+    const bsTab = new bootstrap.Tab(`#codeTab a[data-bs-target="${tabPane}"]`);
+    bsTab.show();
+  }

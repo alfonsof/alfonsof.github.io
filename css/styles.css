@@ -4,6 +4,7 @@ h1 {
 
 h2 {
   text-align: center;
+  color: #3498db;
 }
 
 .is-breakable {
@@ -13,21 +14,6 @@ h2 {
 
 .picture-text {
   margin-top: 15px;
-}
-
-/*================== Foot ==================*/
-.footer-space {
-  background-color: #222222 !important;
-  border-color: #222222 !important;
-  color: #9D9D8D !important;
-}
-
-.footer-content {
-  padding: 7px 0 7px 0;
-}
-
-.copyright {
-  padding: 7px 0 7px 0;
 }
 
 /*===== Scroll Up Button =====*/
